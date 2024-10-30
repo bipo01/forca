@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+}
+
+.letrasContainer {
+    width: fit-content;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.letrasContainer p {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.letrasContainer p:hover {
+    background: gray;
+}
+
+#situacao {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+#resultado,
+#resposta {
+    color: white !important;
+}
+
+#resultado-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    min-height: 100vh;
+}
+
+.clicado {
+    background: rgba(75, 75, 75, 0.627);
+    cursor: default !important;
+}
+
+.proibido {
+    cursor: default !important;
+    background: red !important;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #0056b3; /* Azul escuro */
+}
+
+.letrasContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letrasContainer p {
+    margin: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.letrasContainer p:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.alert {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    color: red;
+    background: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .letrasContainer p {
+        font-size: 20px;
+    }
+}

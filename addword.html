@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nova Palavra</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container mt-4">
+            <h1 class="text-center mb-4">Adicionar Nova Palavra</h1>
+            <form class="bg-light p-4 rounded shadow-sm">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nova Palavra"
+                        id="palavra"
+                        required
+                        autocomplete="off"
+                    />
+                </div>
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nova Categoria"
+                        id="categoria"
+                        required
+                        autocomplete="off"
+                    />
+                </div>
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nova Dica"
+                        id="dica"
+                        required
+                        autocomplete="off"
+                    />
+                </div>
+                <button type="submit" class="btn btn-primary">Adicionar</button>
+                <p id="situacao"></p>
+            </form>
+            <div class="mt-4 text-center">
+                <a href="./index.html" class="btn btn-secondary">Voltar</a>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="novapalavra.js"></script>
+    </body>
+</html>
